@@ -53,17 +53,17 @@ input{
 
 }
 main {
-    background-image: url("../assets/branding/NewJCGCBackground.jpg");
-    background-position: center;
-    background-size: cover;
-    background-size: 70%;
-    background-repeat: no-repeat;
+  
     display: flex;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.904);
     color: #695e5e;
     unicode-bidi: embed;
     align-items: center;
+    background-image: url("../assets/branding/NewJCGCBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    
 }
 h2{
     text-align: center;
