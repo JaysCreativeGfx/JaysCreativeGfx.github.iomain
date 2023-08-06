@@ -1,0 +1,22 @@
+body {
+    background-color: #433b3e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list  { 
+    font: italic normal 300 1.8em/1.5em Helvetica, sans-serif;color: rgb(255, 255, 255);
+}
+    
+table {
+        width: 100;
+        font-size: 4vw;
+        }
+        
+        h1 {
+            color: rgb(196, 166, 194);
+        }
+        h3{
+            color: rgb(156, 118, 151);
+        }
+        .effect {
+            float: right;
+        }

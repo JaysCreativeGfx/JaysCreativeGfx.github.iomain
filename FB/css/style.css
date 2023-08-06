@@ -1,0 +1,95 @@
+
+#facebook ._-kb a {
+    font-family: inherit;
+}
+a {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: #e2e2e2;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+fieldset{
+   justify-items: center;
+   align-items: center;
+   margin: 46vh;
+   width: 10%;
+   display: flex;
+   flex-direction: column
+  
+}
+
+
+
+
+body {
+    background: rgba(175, 207, 246, 0.904);
+
+   
+    
+  
+    
+    unicode-bidi: embed;
+    
+}
+h2{
+    text-align: center;
+}
+h1{
+    font-family: klavika-bold;
+    text-align: center;
+    font-size: 60px;
+}
+h4{
+    text-align: center;
+}
+
+.sign {
+    display: flex;
+    
+   
+    background-color: #94afca;
+    
+    
+    color: #0a1c78;
+
+    
+}
+user agent stylesheet
+
+
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+h2 {
+    
+ 
+}
+
+/*media Query*/
+@media screen and (max-width: 1200px){
+    main{
+        grid-template-columns: 20% 60% 20%
+
+    }
+    
+
+}
+    
+
+    
+@media screen and (max-width:768px) {
+    main{
+        grid-template-columns: 10% 80% 10%;
+
+    }
+    
+
+}
