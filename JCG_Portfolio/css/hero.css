@@ -108,7 +108,17 @@ body, button, input, label, select, td, textarea {
     
     
 }
-
+.JamesIMG{
+    scale: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+}
+div,img {
+    
+}
     
     
 
@@ -177,13 +187,7 @@ input:invalid{
 
    
    
-.carousel-item{
-    float: center;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-}
+
 .carouselslide{
     display: flex;
     align-items: center;

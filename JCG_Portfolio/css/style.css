@@ -63,7 +63,6 @@ header {
   margin-left: 31vh;
   margin-right: 31vh;
  
-  background-image: url("../assets/branding/NewJCGLogo-02.png");
     background-position: center;
     background-size: cover;
     background-size: 70%;
@@ -310,12 +309,7 @@ footer h4 {
 h1{
   font-family: 'Lobster' ;
 }
-.carousel-item{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  width: 200%;
-}
+
 .content-container{
   margin-bottom:0%;
   display: grid;
