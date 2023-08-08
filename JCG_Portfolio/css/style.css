@@ -171,13 +171,7 @@ nav a:hover {
 
 
 /* MAIN Content */
-main {
-  padding: 25px 15%;
-  background-image: url("../assets/branding/NewJCGCBackground.jpg");
-  background-position: center;
-  background-size: cover;
-  
-}
+
 
 /* contents: */
 
@@ -211,6 +205,16 @@ main {
 .content-content {
   
   padding:20px;
+}
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
 }
 
 

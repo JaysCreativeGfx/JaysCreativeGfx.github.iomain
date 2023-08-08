@@ -10,7 +10,7 @@
     background-size: cover;
     background-size: 70%;
     background-repeat: no-repeat;
-    width: 220vh;
+    width: 185vh;
 
 }
  h1 h3{
@@ -119,6 +119,17 @@ body, button, input, label, select, td, textarea {
   
 }
 div,img {
+   
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    padding-top: 0vh;
+    scale: 100%;
+    
+}
+img{
     
 }
     
@@ -146,6 +157,12 @@ input {
   
     
 
+}
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
   
