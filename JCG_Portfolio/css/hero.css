@@ -317,7 +317,37 @@ p{
     nav{
     width: 100%;
     height: 100%;
+    justify-content: space-between;
+    
     }
 
     
 }
+@media screen and (max-width: 768px){
+    .site_hero {
+    width: 75%;
+    height: 75%;
+    justify-content:center;
+    background-repeat: no-repeat;
+   
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    margin: 2vh;
+    
+    }
+
+    
+}
+@media screen and (max-width: 768px){
+    h3 {
+        justify-content: center;
+   
+    size: 5%;
+}
+   
+    
+
+    
+}
+
