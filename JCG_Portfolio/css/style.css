@@ -231,7 +231,7 @@ nav a:hover {
   height:20px;
   background-color: #000000;
   border-top:2px solid #676666;
-  background-image: url("../assets/branding/NewJCGCBackground.jpg");
+  
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -246,7 +246,7 @@ footer {
   padding-right: 50vh;
   padding-left: 50vh;
   justify-content: center;
-  background-image: url("../assets/branding/NewJCGCBackground.jpg");
+  
   background-position: center;
   background-size: cover;
   background-size: 200%;
