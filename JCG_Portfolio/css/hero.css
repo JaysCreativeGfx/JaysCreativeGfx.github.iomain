@@ -222,7 +222,7 @@ img{
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-left: 34vh;
+    margin-left: 14vh;
     scale: 70%;
     
 }
@@ -323,7 +323,7 @@ p{
 
     
 }
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
     .site_hero {
     width: 75%;
     height: 75%;
@@ -339,11 +339,31 @@ p{
 
     
 }
-@media screen and (max-width: 768px){
-    h3 {
-        justify-content: center;
+@media  (max-width: 768px){
+    .carousel-item {
+    justify-content: center;
+    align-items: center;
+    margin-left: 6vh;
+    scale: 100%;
+    
+    
+}
    
-    size: 5%;
+    
+
+    
+}
+@media (max-width: 768px){
+    header {
+        background-position: center;
+        background-size: cover;
+        background-size: 30%;
+        background-repeat: no-repeat;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right: 5%;
+        align-items: center;
+        display: flex;
 }
    
     
