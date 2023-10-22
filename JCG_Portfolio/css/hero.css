@@ -313,8 +313,9 @@ p{
 
 }
 /*media Query*/
-@media (max-width: 768px){
+@media (max-width: 1268px){
     nav{
+    display: flex;
     width: 100%;
     height: 100%;
     justify-content: space-between;
@@ -323,7 +324,7 @@ p{
 
     
 }
-@media (max-width: 768px){
+@media (max-width: 1268px){
     .site_hero {
     width: 75%;
     height: 75%;
@@ -339,7 +340,7 @@ p{
 
     
 }
-@media  (max-width: 768px){
+@media  (max-width: 1268px){
     .carousel-item {
     justify-content: center;
     align-items: center;
@@ -353,7 +354,7 @@ p{
 
     
 }
-@media (max-width: 768px){
+@media (max-width: 1268px){
     header {
         background-position: center;
         background-size: cover;
@@ -370,23 +371,18 @@ p{
 
     
 }
-@media (max-width: 768px){
-    main{ 
-        display: flex;
-        flex-direction: column;
-        background: rgba(255, 255, 255, 0.904);
-        color: #695e5e;
-        unicode-bidi: embed;
-        align-items: center;
-        background-image: url("../assets/branding/NewJCGCBackground.jpg");
-        background-position: center;
-        background-size: cover;
-        
-    }
-       
-        margin-left: 0%;
-        margin-right: 0%;
-      
+@media (max-width: 1268x){
+    main{
+    display: flex;
+      justify-content: center;
+      align-content: center;
+}
+}
+@media (max-width: 1268px){
+    .card {
+    display: flex;
+      justify-content: center;
+      align-content: center;
 }
 }
 
