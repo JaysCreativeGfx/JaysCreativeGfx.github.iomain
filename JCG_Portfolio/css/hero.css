@@ -313,8 +313,9 @@ p{
 
 }
 /*media Query*/
-@media (max-width: 1268px){
+@media (max-width: 798px){
     nav{
+    font-size: 9px;
     display: flex;
     width: 100%;
     height: 100%;
@@ -324,23 +325,25 @@ p{
 
     
 }
-@media (max-width: 1268px){
+@media (max-width: 798px){
     .site_hero {
-    width: 75%;
-    height: 75%;
-    justify-content:center;
+    width: 100%;
+  
+    background-size: contain;
+    background-size: 100%;
+    
     background-repeat: no-repeat;
-   
-    align-items: center;
+    
+    
     background-position: center;
-    background-size: cover;
-    margin: 2vh;
+    display: flex;
+    
     
     }
 
     
 }
-@media  (max-width: 1268px){
+@media  (max-width: 798px){
     .carousel-item {
     justify-content: center;
     align-items: center;
@@ -354,15 +357,18 @@ p{
 
     
 }
-@media (max-width: 1268px){
+@media (max-width: 798px){
     header {
+        width: 20%;
         background-position: center;
-        background-size: cover;
-        background-size: 30%;
+        background-size: 50%;
+    
         background-repeat: no-repeat;
         justify-content: center;
         margin-left: 0%;
-        margin-right: 5%;
+        padding-left: 30vh;
+        padding-right: 30vh;
+        
         align-items: center;
         display: flex;
 }
@@ -371,18 +377,22 @@ p{
 
     
 }
-@media (max-width: 1268x){
+@media (max-width:798x){
     main{
     display: flex;
       justify-content: center;
       align-content: center;
+      margin-right: 0%;
+      
 }
 }
-@media (max-width: 1268px){
-    .card {
-    display: flex;
-      justify-content: center;
-      align-content: center;
+@media (max-width:798px){
+    .hero_text {
+   
+   font-size: 9px;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 28vh;
 }
 }
 
