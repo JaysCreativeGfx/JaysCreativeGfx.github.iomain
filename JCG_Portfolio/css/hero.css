@@ -347,7 +347,7 @@ p{
     .carousel-item {
     justify-content: center;
     align-items: center;
-    margin-left: 6vh;
+    margin-left: 8vh;
     scale: 100%;
     
     
@@ -395,4 +395,11 @@ p{
    margin-bottom: 28vh;
 }
 }
+@media (max-width:798x){
+    footer{
 
+        padding-right: 0vh;
+        padding-left: 0vh;
+}
+
+}

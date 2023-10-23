@@ -243,15 +243,15 @@ footer .nav-contact{
   margin: 3vh;
 }
 footer {
-  padding-right: 50vh;
-  padding-left: 50vh;
+  padding-right: 0vh;
+  padding-left: 0vh;
   justify-content: center;
   
   background-position: center;
   background-size: cover;
   background-size: 200%;
   margin: 10vh;
-  margin-left: 15vh;
+  margin-left: 1vh;
 
 
   background-repeat: no-repeat;
