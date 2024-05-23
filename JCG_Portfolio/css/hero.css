@@ -214,16 +214,30 @@ img{
 
     
   
+#wrap{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.column{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 7fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2px;
+    margin-left: 0%;
+    margin-right: 0%;
     
-
-
+}
 
 .row, img {
-flex-direction: row;
+
 display: grid;
 
    
- width: 65%;
+ width: 70%;
   
 
 
